@@ -18,8 +18,6 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
-
     {% include JB/analytics %}
 
     <meta name="generator" content="WordPress 3.5.1"/>
@@ -41,7 +39,7 @@
             <div class="menu">
                 <ul>
                     <li class="link mail"><a href="mailto:{{ site.author.email }}">say hello</a></li>
-                    <li class="link social inline"><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a> <a href="https://www.github.com/{{ site.author.github }}"><i class="icon-github-alt"></i></a></li>
+                    <li class="link social inline"><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a> <a href="https://github.com/{{ site.author.github }}"><i class="icon-github-alt"></i></a></li>
                     <li class="link about"><a href="{{ BASE_PATH }}/archive.html">archive</a></li>
                 </ul>
             </div>
@@ -52,6 +50,9 @@
     <section id="river" role="main">
         {{ content }}
     </section>
+
+    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/override.css">
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
     <script src="{{ ASSET_PATH }}/js/prettify.js"></script>
     <script type="text/javascript">
         document.body.onload = function () {
