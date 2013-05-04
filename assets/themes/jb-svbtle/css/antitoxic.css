@@ -89,3 +89,17 @@ figure.logo.medium a {
         left: 0;
     }
 }
+
+/* Inline social icons links */
+
+ul#user_nav li.inline a {
+    margin-left: 0;
+    left:-30px;
+}
+
+@media all and (max-width:750px) {
+    ul#user_nav li.inline a {
+        margin-left: 0;
+        left:0;
+    }
+}
