@@ -1,0 +1,91 @@
+/* Sub-tagline*/
+header#sidebar h3 .sub {
+    color: #999;
+    display: block;
+    font-size: 13px;
+    font-style: italic;
+    line-height: 18px;
+    padding-top: 4px;
+}
+header#sidebar h3 .sub a {
+    color:#999;
+}
+header#sidebar h3 .sub a:hover {
+    color:#999;
+}
+header#sidebar h3 .sub a:hover abbr {
+    border-bottom:0;
+}
+
+/* Logo changes */
+
+figure.logo {
+    border-radius: 0;
+    background: 0;
+    margin-left: 20px;
+}
+
+figure.logo a {
+    background-image: url("/assets/themes/jb-svbtle/images/logo.png");
+    border-radius: 0;
+}
+
+figure.logo.medium {
+    width: 101px;
+    height: 140px
+}
+
+figure.logo.medium a {
+    width: 101px;
+    height: 140px;
+    border:0;
+    top: 0;
+    left: 0;
+}
+
+@media only all and (min-width:1150px) {
+    header#sidebar figure.logo {
+        width: 144px;
+        height: 200px;
+        margin-left:0;
+    }
+
+    header#sidebar figure.logo a {
+        width: 144px;
+        height: 200px;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+@media all and (min-width:750px) and (max-width:900px) {
+    figure.logo.medium {
+        width: 87px;
+        height: 120px;
+        margin-left:15px;
+    }
+
+    figure.logo.medium a {
+        width: 87px;
+        height: 120px;
+        top: 0;
+        left: 0;
+    }
+}
+
+
+
+@media all and (max-width:620px) {
+    header#sidebar figure.logo {
+        width: 82px;
+        height: 114px;
+    }
+
+    header#sidebar figure.logo a {
+        width: 82px;
+        height: 114px;
+        top: 0;
+        left: 0;
+    }
+}
