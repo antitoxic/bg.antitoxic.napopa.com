@@ -1,28 +1,28 @@
 /* --- From layout: START--- */
 blockquote {
-    border-color: #ff0000;
+    border-color: #f02311;
 }
 
 figure.logo, aside.alsoby li a:hover, aside.kudo.complete span.circle {
-    background-color: #ff0000;
+    background-color: #f02311;
 }
 
 section.preview header#begin h2, ul#user_meta a:hover, nav.pagination span.next a, nav.pagination span.prev a {
-    color: #ff0000;
+    color: #f02311;
 }
 
 ul#user_meta a:hover, nav.pagination span.next a, nav.pagination span.prev a {
-    border-color: #ff0000;
+    border-color: #f02311;
 }
 
 ::-moz-selection {
-    background: #ff0000;
+    background: #f02311;
     color: #fff;
     text-shadow: none;
 }
 
 ::selection {
-    background: #ff0000;
+    background: #f02311;
     color: #fff;
     text-shadow: none;
 }

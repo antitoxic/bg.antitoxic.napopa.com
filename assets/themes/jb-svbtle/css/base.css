@@ -1,10 +1,7 @@
 /*
-Theme Name: Svbtle
-Theme URI: http://wp-svbtle.com/
-Github Theme URI: https://github.com/gravityonmars/wp-svbtle
-Author: Gravity On Mars
-Author URI: http://themeskult.com/
-Version: v4.1.7
+Based on WP theme: wp-svbtle (http://wp-svbtle.com/, https://github.com/gravityonmars/wp-svbtle)
+Authors: Gravity On Mars, kevinxueliang, antitoxic
+Authors URI: http://themeskult.com/,http://blog.kevinlife.org/, http://antitoxic.napopa.com/
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -533,13 +530,23 @@ article img, article iframe, article object {
     display: block;
     margin: 0;
     padding: 0;
-    max-width: 657px;
+    max-width: 650px;
     float: none
+}
+
+article img {
+    transition-property: margin, max-width;
+    transition-duration: .5s;
+    transition-timing-function: ease-out
 }
 
 article iframe, article object {
     min-height: 250px;
     min-width: 0
+}
+
+body article iframe.twitter-tweet {
+    min-height: 0
 }
 
 ul, ol {
@@ -556,7 +563,8 @@ ul {
 
 article.post ul {
     list-style-type: disc;
-    max-width: 470px
+    padding-right: 40px;
+    max-width: 550px
 }
 
 article.post ul li, article.post ol li {
@@ -570,7 +578,12 @@ article.post ul li, article.post ol li {
 }
 
 article.post ol {
-    max-width: 470px
+    padding-right: 120px;
+    max-width: 550px
+}
+
+article.post ol p {
+    padding-right: 0
 }
 
 ol {
@@ -749,20 +762,20 @@ header#sidebar h3 {
 }
 
 ul#user_nav {
-    position: relative
+    position: relative;
+    margin-top: 25px
 }
 
 ul#user_nav li a {
     position: relative;
     display: inline-block;
     font-size: 15px;
-    line-height: 14px;
+    line-height: 25px;
     border: 4px solid #f8f8f8;
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     z-index: 5;
-    padding: 7px;
     padding-left: 15px;
     padding-right: 15px;
     color: #999;
@@ -772,7 +785,8 @@ ul#user_nav li a {
 }
 
 ul#user_nav li a:hover {
-    color: #000;
+    color: #fff;
+    background-color: #000;
     border-color: #000
 }
 
@@ -831,9 +845,19 @@ article h1, article h2, article h3, article h4, article h5, article h6, article 
     padding-right: 100px
 }
 
-article.post>p:nth-child(2) {
-    font-size: 18px;
-    line-height: 26px;
+article blockquote p {
+    font-size: 16px;
+    line-height: 26px
+}
+
+body article blockquote.large p {
+    font-size: 19px;
+    line-height: 30px
+}
+
+article.post>p:nth-child(2), article.post p.bigtext {
+    font-size: 17px;
+    line-height: 27px;
     color: #373737
 }
 
@@ -1161,6 +1185,14 @@ h2.page_title {
     display: block
 }
 
+img.bleed {
+    max-width: 650px
+}
+
+blockquote .bleed, blockquote span.bleed, blockquote div.bleed, blockquote p.bleed, blockquote img.bleed {
+    margin-left: -18px
+}
+
 #svbtle_linkback {
     position: fixed;
     left: 20px;
@@ -1270,13 +1302,11 @@ p.legal a {
 @keyframes bounce {
     0% {
         transform: scale(1.2);
-        background-color: #000;
         opacity: 1
     }
     50% {
-        transform: scale(1.6);
-        opacity: .7;
-        background-color: #000
+        transform: scale(1.8);
+        opacity: .7
     }
     60% {
         transform: scale(0.6);
@@ -1290,13 +1320,11 @@ p.legal a {
 @-webkit-keyframes bounce {
     0% {
         -webkit-transform: scale(1.2);
-        background-color: #000;
         opacity: 1
     }
     50% {
-        -webkit-transform: scale(1.6);
-        opacity: .7;
-        background-color: #000
+        -webkit-transform: scale(1.8);
+        opacity: .7
     }
     60% {
         -webkit-transform: scale(0.6);
@@ -1310,13 +1338,11 @@ p.legal a {
 @-moz-keyframes bounce {
     0% {
         -moz-transform: scale(1.2);
-        background-color: #000;
         opacity: 1
     }
     50% {
-        -moz-transform: scale(1.6);
-        opacity: .7;
-        background-color: #000
+        -moz-transform: scale(1.8);
+        opacity: .7
     }
     60% {
         -moz-transform: scale(0.6);
@@ -1378,7 +1404,11 @@ figure.logo.medium a {
     }
 }
 
-@media all and (min-width:750px) and (max-width:900px) {
+@media all and (min-width:750px) and (max-width:880px) {
+    img.bleed {
+        max-width: 130%
+    }
+
     figure.logo.medium {
         width: 120px;
         height: 120px
@@ -1420,6 +1450,14 @@ figure.logo.medium a {
 }
 
 @media all and (max-width:750px) {
+    .bleed, span.bleed, div.bleed, p.bleed, img.bleed {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        padding: 0;
+        margin: 0
+    }
+
     header#sidebar {
         display: block;
         position: relative;
@@ -1577,6 +1615,10 @@ figure.logo.medium a {
         margin-left: 50px
     }
 
+    article.post ol {
+        padding-right: 10px
+    }
+
     section#river article pre code {
         width: auto;
         margin: 0;
@@ -1601,7 +1643,7 @@ figure.logo.medium a {
     }
 
     article ul, article ol {
-        margin-left: 50px;
+        margin-left: 20px;
         padding-left: 0
     }
 
@@ -1663,15 +1705,7 @@ figure.logo.medium a {
         min-height: 250px;
         min-width: 0
     }
-
-    .bleed, span.bleed, div.bleed, p.bleed, img.bleed {
-        margin-left: 0;
-        margin-right: 0;
-        width: 100%;
-        padding: 0;
-        margin: 0
     }
-}
 
 @media all and (max-width:560px) {
     article.post {
@@ -1692,7 +1726,7 @@ figure.logo.medium a {
     }
 }
 
-@media only all and (min-width:1150px) {
+@media only all and (min-width:1100px) {
     header#sidebar figure.logo {
         width: 200px;
         height: 200px
@@ -1713,6 +1747,15 @@ figure.logo.medium a {
     article.post>p:nth-child(2) {
         font-size: 20px;
         line-height: 30px
+    }
+
+    article h1, article h2, article h3, article h4, article h5, article h6, article p, article blockquote {
+        max-width: 600px
+    }
+
+    article p img.bleed {
+        min-width: 650px;
+        max-width: 650px
     }
 }
 

@@ -1,3 +1,4 @@
+/* Responsive gists */
 .gist .gist-file  {
     margin-left: -50px;
     border-left:0;
@@ -7,8 +8,6 @@
 .gist .gist-file .gist-data .line-numbers {
     width:27px;
 }
-
-
 @media all and (max-width:750px) {
     .gist .gist-file {
         margin-left: -60px;
@@ -27,5 +26,15 @@
         width: 100%;
         padding-right: 0;
     }
+}
+article .gist a {
+    border: 0;
+}
 
+/* Syntax highliting tweaks*/
+.gist .gist-file .gist-data {
+    font-size: 13px;
+}
+.highlight code {
+    /*background: #272728 !important;*/
 }

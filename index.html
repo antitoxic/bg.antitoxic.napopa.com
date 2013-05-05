@@ -26,6 +26,7 @@ title: antitoxic / Blog
 
 {% endfor %}
 
+{% if paginator.total_pages > 1 %}
 <nav class="pagination">
     {% if paginator.previous_page %}
     <span class="prev">
@@ -40,3 +41,4 @@ title: antitoxic / Blog
     {% else %}
     {% endif %}
 </nav>
+{% endif %}
