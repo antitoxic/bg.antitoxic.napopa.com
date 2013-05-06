@@ -51,7 +51,7 @@ These authorities will weight the medias and other sources of information for us
 
 The answers then will be showed in order of specificity to our question and the authority they show on this topic with some sort of confidence, grading. This will be accompanied with the names of people this answer is supported or opposed.
 
-If you want an opinion on the Boston's Bombing you'll be shown answers from medias/journalists that usually handle such attacks with honesty and not minimum faff; anwsers that are backed by authoritative references.
+If you want an opinion on the Boston's Bombing you'll be shown answers from medias/journalists that usually handle such attacks with honesty and minimum faff; anwsers that are backed by authoritative references.
 
 ### Another more possible application
 The described above is currently somehow brittle idea that can hit few show-stoppers. Things like:
