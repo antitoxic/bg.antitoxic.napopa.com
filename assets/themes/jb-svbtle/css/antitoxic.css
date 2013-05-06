@@ -111,7 +111,7 @@ eader#begin time {
 }
 article.post h2 a {
     font-weight: 900;
-    -webkit-font-smoothing: antialiased
+    font-family: "Lato", sans-serif;
 }
 aside.kudo.active a.counter span.txt {
     font-family: "Lato", sans-serif;
@@ -132,5 +132,8 @@ section.preview header#begin h2 {
     font-family: "Lato", sans-serif;
 }
 ul#user_nav li a {
+    font-family: "Lato", sans-serif;
+}
+header#begin time {
     font-family: "Lato", sans-serif;
 }

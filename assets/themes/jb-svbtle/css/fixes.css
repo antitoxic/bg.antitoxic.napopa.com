@@ -1,19 +1,18 @@
 /* --- From layout: START--- */
-blockquote {
-    border-color: #f02311;
-}
 
-figure.logo, aside.alsoby li a:hover, aside.kudo.complete span.circle {
+ul#user_nav li a:hover, figure.logo, aside.alsoby li a:hover, figure.kudo.complete div.filling {
     background-color: #f02311;
 }
-
-section.preview header#begin h2, ul#user_meta a:hover, nav.pagination span.next a, nav.pagination span.prev a {
+section.preview header#begin h2, nav.pagination span.next a, nav.pagination span.prev a, aside.read_next a:hover h3, aside.read_next a:hover h4 {
     color: #f02311;
 }
-
-ul#user_meta a:hover, nav.pagination span.next a, nav.pagination span.prev a {
+ul#user_nav li a:hover, nav.pagination span.next a, nav.pagination span.prev a, aside.read_next a:hover h3, blockquote {
     border-color: #f02311;
 }
+aside.read_next a:hover span.arrow_down {
+    border-top-color: #f02311;
+}
+
 
 ::-moz-selection {
     background: #f02311;

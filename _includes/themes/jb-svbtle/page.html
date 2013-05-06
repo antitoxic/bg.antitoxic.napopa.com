@@ -5,11 +5,15 @@
 <h2 class="entry-title">
   <a href="{{ page.url }}" class="no-link" title="Permalink to {{ page.title }}" rel="bookmark">{{ page.title }}</a>
 </h2>
-
-<div class="entry-content">
 {{ content }}
-</div><!-- .entry-content -->
-        
+<nav class="pagination">
+    <span class="prev">
+        <a class="back_to_blog" href="{{ BASE_PATH }}">←&nbsp;&nbsp;&nbsp;Full blog</a>
+    </span>
+</nav>
 
 </article><!-- #post-## -->
+</section>
+<section id="fin">
+    <p class="legal"><a href="{{ BASE_PATH }}">If you like an idea do it. If you can implement a concept do it. Let's get something actually gets done.</a></p>
 </section>
