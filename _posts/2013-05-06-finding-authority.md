@@ -21,7 +21,7 @@ Our favourite superhero *the internet*. We had web search for a while now and it
 A very ugly part of web search is advertising and generally the incentive for market-izing everything. But we can use it for something good. We can change it so that it filters out information for us.
 
 ### Classifying information
-TextRazor](http://www.textrazor.com/) is a tool that can read an article and it will its best to tell classify it and extract mentioned names and organisations.
+[TextRazor](http://www.textrazor.com/) is a tool that can read an article and it will its best to tell classify it and extract mentioned names and organisations.
 
 That is in if you pass the text of my [previous article]({% post_url 2013-05-05-plugin-pattern-autoloading %}) in [TexTrazor's demo](http://www.textrazor.com/demo) you'll be told that the main topic is *Technology* with a genre of *Web Application* and also the name *Addy Osmani* was mentioned. 
 
