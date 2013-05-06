@@ -53,8 +53,9 @@ The answers then will be showed in order of specificity to our question and the 
 
 If you want an opinion on the Boston's Bombing you'll be shown answers from medias/journalists that usually handle such attacks with honesty and not minimum faff; anwsers that are backed by authoritative references.
 
-### Another more possible applications
-The described above is currently somehow brittle idea that can hit few show-stoppers.Things like:
+### Another more possible application
+The described above is currently somehow brittle idea that can hit few show-stoppers. Things like:
+
  - Who will pick these **consulting authorities**?
  - How much can we trust *them*?
  - Is the software clever enough to extract not only topic but author's position on the topic?
