@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/base.css">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/fixes.css">
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/antitoxic.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic,900,900italic|Quattrocento+Sans:400,400italic,700,700italic&subset=latin' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900&subset=latin' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tenor+Sans|PT+Sans:400,400italic,700,700italic|Comfortaa:400,300,700|Russo+One|Didact+Gothic&subset=cyrillic' rel='stylesheet' type='text/css'>
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -22,8 +23,7 @@
     {% include JB/analytics %}
 
     <meta http-equiv="X-UA-Compatible" content="IE=8"/>
-</head>
-<body class="home blog">
+</head><body class="home blog">
 
     <header id="sidebar">
         <figure class="logo medium">
@@ -32,16 +32,16 @@
         <h1><a href="{{ BASE_PATH }}/">{{ site.title }}</a></h1>
         <h2><a href="{{ BASE_PATH }}/">{{ site.author.name }}</a></h2>
 
-        <h3>{{ site.tagline }}<span class="sub">aka. Fighting <a href="http://en.wikipedia.org/wiki/Vogon"><abbr title="{{ site.subtagline }}">vogons</abbr></a> and development discomfort</span></h3>
+        <h3><a href="http://en.wikipedia.org/wiki/Open_data"><abbr title="Отворени данни">Open Data</abbr></a>, Идеи за силно социално общество & Софтуерна разработка<span class="sub">дру̀гояче: Борба с <a href="http://en.wikipedia.org/wiki/Vogon"><abbr title="{{ site.subtagline }}">вогоните</abbr></a> и неудобтсвата на разработчика</span></h3>
 
         <ul id="user_nav">
 
             <div class="menu">
                 <ul>
-                    <li class="link mail"><a href="mailto:{{ site.author.email }}">say hello</a></li>
+                    <li class="link mail"><a href="mailto:{{ site.author.email }}">здрасти</a></li>
                     <li class="link social inline"><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a> <a href="https://github.com/{{ site.author.github }}"><i class="icon-github-alt"></i></a></li>
-                    <li class="link about"><a href="{{ BASE_PATH }}/archive.html">archive</a></li>
-                    <li class="link about"><a href="{{ BASE_PATH }}/rss.xml">feed</a></li>
+                    <li class="link about"><a href="{{ BASE_PATH }}/archive.html">архив</a></li>
+                    <li class="link about"><a href="{{ BASE_PATH }}/rss.xml">rss</a></li>
                 </ul>
             </div>
 

@@ -2,7 +2,7 @@
 header#sidebar h3 .sub {
     color: #999;
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     font-style: italic;
     line-height: 18px;
     padding-top: 4px;
@@ -17,7 +17,7 @@ header#sidebar h3 .sub a:hover abbr {
     border-bottom:0;
 }
 header#sidebar h2 {
-    font-size: 12px;
+    font-size: 13px;
 }
 
 /* Logo changes */
@@ -98,42 +98,56 @@ ul#user_nav li.inline a {
 
 /* Custom fonts */
 body {
-    font-family: 'Quattrocento Sans', 'Helvetica', sans-serif;
+    font-family: 'Comfortaa', 'Helvetica', sans-serif;
 }
 p {
-    font-family: 'Quattrocento Sans', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
 }
-header#sidebar h2, header#sidebar h1 {
+header#sidebar h1 {
     font-family: 'Lato', 'helvetica', sans-serif
 }
-eader#begin time {
-    font-family: "Lato", sans-serif;
+header#sidebar h2 {
+    font-family: "PT Sans", sans-serif;
+}
+header#begin time {
+    font-family: "PT Sans", sans-serif;
 }
 article.post h2 a {
     font-weight: 900;
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 aside.kudo.active a.counter span.txt {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 aside.kudo a.counter {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 aside.read_next h4 {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 aside.read_next h3 {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 section.preview header#begin h2 {
-    font-family: "Lato", sans-serif
+    font-family: "PT Sans", sans-serif
 }
 #svbtle_linkback {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 ul#user_nav li a {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
 }
 header#begin time {
-    font-family: "Lato", sans-serif;
+    font-family: "PT Sans", sans-serif;
+}
+
+abbr {
+    cursor: help
+}
+a abbr {
+    cursor: pointer;
+}
+
+header#sidebar h3 {
+    font-size: 14px;
 }
