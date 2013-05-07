@@ -2,7 +2,7 @@
 layout: post
 category : dev
 tags : [minimal, usability]
-title: Minimizing distractions  
+title: Minimizing distractions
 ---
 
 Being productive through elimination of what makes us unproductive.
@@ -20,6 +20,8 @@ Being productive through elimination of what makes us unproductive.
  * Focus on editor, light editor with dark UI
  * Quick temporary access to panels (Double `Alt`)
  * Full screen, dedicated monitor for IDE
+
+You would think tabs are nice and useful. At least I thought so. Actually are a huge distraction. Especially in semi-large projects in which you end up opening a list of files one after another and the tabs get on several rows or the files you initially had opened are now closed in order to save space. You are still aware where in the project are you thanks to the neat shortcuts mentioned below.
 
 ### Goodness & shortcuts
 Of which the favourite picks:
