@@ -1,3 +1,23 @@
+@font-face {
+    font-family: 'comforta mod';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/comfortaa-mod-bold.eot');
+    src: url('../font/comfortaa-mod-bold.eot') format('embedded-opentype'),
+    url('../font/comfortaa-mod-bold.woff') format('woff'),
+    url('../font/comfortaa-mod-bold.ttf') format('truetype'),
+    url('../font/comfortaa-mod-bold.svg#ComfortaaBold') format('svg');
+}
+@font-face {
+    font-family: 'comforta mod';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/comforta-mod-regular.eot');
+    src: url('../font/comforta-mod-regular.eot') format('embedded-opentype'),
+    url('../font/comforta-mod-regular.woff') format('woff'),
+    url('../font/comforta-mod-regular.ttf') format('truetype'),
+    url('../font/comforta-mod-regular.svg#ComfortaaRegular') format('svg');
+}
 /* Sub-tagline*/
 header#sidebar h3 .sub {
     color: #999;
@@ -98,10 +118,10 @@ ul#user_nav li.inline a {
 
 /* Custom fonts */
 body {
-    font-family: 'Comfortaa', 'Helvetica', sans-serif;
+    font-family: 'comforta mod', 'Helvetica', sans-serif;
 }
 p {
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'comforta mod', sans-serif;
 }
 header#sidebar h1 {
     font-family: 'Lato', 'helvetica', sans-serif
@@ -150,4 +170,11 @@ a abbr {
 
 header#sidebar h3 {
     font-size: 14px;
+}
+p.legal a {
+    font-size: 13px;
+}
+
+article img, article iframe {
+    width: 100%;
 }
