@@ -41,6 +41,5 @@ group: navigation
 
 > Казвам се Антон и се занимавах просто с уеб. Сега се занимавам с изграждане на устойчиво гражданско общество.
 
-{% post_url 2013-05-08-za-gorite %}
 ## A блогът?
 Блогът е изграден на [jekyll](http://jekyllrb.com/) и ползва променена версия на [говов шаблонен дизайн с отворен код](https://github.com/antitoxic/jb-svbtle). Целия код на блога също може да намерите като публично "*<abbr title="Repository">хранилище</abbr>*" [в github](https://github.com/antitoxic/bg.antitoxic.napopa.com).
