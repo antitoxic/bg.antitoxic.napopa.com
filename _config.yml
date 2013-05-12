@@ -96,7 +96,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : antitoxicblog
+      short_name : antitoxicblogbg
 #    livefyre :
 #      site_id : 123
 #    intensedebate :

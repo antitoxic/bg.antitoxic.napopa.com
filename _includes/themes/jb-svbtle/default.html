@@ -19,6 +19,7 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <link rel="alternate" type="application/rss+xml" title="antitoxic / Блог (RSS 2.0)" href="http://bg.antitoxic.napopa.com/rss.xml" />
 
     {% include JB/analytics %}
 
@@ -38,10 +39,10 @@
 
             <div class="menu">
                 <ul>
-                    <li class="link mail"><a href="mailto:{{ site.author.email }}">здрасти</a></li>
-                    <li class="link social inline"><a href="https://twitter.com/{{ site.author.twitter }}"><i class="icon-twitter"></i></a> <a href="https://github.com/{{ site.author.github }}"><i class="icon-github-alt"></i></a></li>
+                    <li class="link mail info inline"><a href="mailto:{{ site.author.email }}">здрасти</a> <a href="{{ BASE_PATH }}/info.html" title="за мен и за блога, бюро Информация"><i class="icon-info-sign"></i></a></li>
+                    <li class="link social inline"><a href="https://twitter.com/{{ site.author.twitter }}" title="Twitter акаунт"><i class="icon-twitter"></i></a> <a href="https://github.com/{{ site.author.github }}" title="Github акаунт"><i class="icon-github-alt"></i></a></li>
                     <li class="link about"><a href="{{ BASE_PATH }}/archive.html">архив</a></li>
-                    <li class="link about"><a href="{{ BASE_PATH }}/rss.xml">rss</a></li>
+                    <li class="link about"><a href="{{ BASE_PATH }}/rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
                 </ul>
             </div>
 
