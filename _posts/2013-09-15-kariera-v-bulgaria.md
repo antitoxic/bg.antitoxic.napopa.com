@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: "Един хубав форум, 1 грешна причина и 10 изпуснати"
 category: conference
