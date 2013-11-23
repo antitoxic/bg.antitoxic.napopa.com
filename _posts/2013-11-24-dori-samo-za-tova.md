@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 title: Дори само за това
 category: comfort
