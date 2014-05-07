@@ -149,7 +149,7 @@ category: obzor
 Мислят се варианти. Ако някой прояви желание - супер. Иначе най-ясният в момента друг вариант е лично да се заема с повече платен freelance и с него да плащам на някой месечно да го върши.
 
 ## Напредък и хора
-Ако Ви интересува напредъка, свържете се с хората в [Facebook групите](https://www.facebook.com/groups/obshtestvo/), [Google групата](https://groups.google.com/forum/#!forum/obshtestvo-organisation) или [разгледайте блога](status.obshtestvo.bg/). Има списъци с активни дейности.
+Ако Ви интересува напредъкът, свържете се с хората в [Facebook групите](https://www.facebook.com/groups/obshtestvo/), [Google групата](https://groups.google.com/forum/#!forum/obshtestvo-organisation) или [разгледайте блога](status.obshtestvo.bg/). Има списъци с активни дейности.
 
 Уважение, радост и благодарности за хората прекарващи лично време за този напредък. Овации за тях. Овации за атмосферата създадена от тези хора.
 
